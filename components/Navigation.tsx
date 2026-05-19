@@ -28,7 +28,7 @@ export default function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-6">
+            <div className="ml-10 flex items-baseline space-x-10">
               {links.map((link) => (
                 <Link
                   key={link.href}
