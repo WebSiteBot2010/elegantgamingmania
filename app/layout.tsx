@@ -18,7 +18,9 @@ export const metadata: Metadata = {
   title: "Elegant Gaming Mania",
   description: "La comunità gaming più elegante e professionale",
   icons: {
-    icon: "/favicon.ico"
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico"
   }
 };
 
