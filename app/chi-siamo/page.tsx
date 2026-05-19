@@ -36,13 +36,6 @@ export default function ChiSiamo() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="text-2xl">⚡</div>
-                <div>
-                  <h3 className="font-bold text-lg mb-1">Performance</h3>
-                  <p className="text-gray-400">Server stabili e veloci, sempre online</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
                 <div className="text-2xl">🤝</div>
                 <div>
                   <h3 className="font-bold text-lg mb-1">Partnership</h3>
@@ -57,9 +50,8 @@ export default function ChiSiamo() {
           <h2 className="text-3xl font-bold mb-8">Il Nostro Team</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { role: 'Founder', name: 'Leccato' },
-              { role: 'Lead Developer', name: 'Tech Team' },
-              { role: 'Community Manager', name: 'Staff Team' },
+              { role: 'Founder', name: 'TheMidMan' },
+              { role: 'Lead Developer', name: 'im_carpa' },
             ].map((member, i) => (
               <div key={i} className="text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-indigo-600 to-pink-600 rounded-full mx-auto mb-4"></div>
