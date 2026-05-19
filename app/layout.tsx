@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Elegant Gaming Mania",
   description: "La comunità gaming più elegante e professionale",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({

@@ -28,7 +28,7 @@ export default function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+            <div className="ml-10 flex items-baseline space-x-6">
               {links.map((link) => (
                 <Link
                   key={link.href}
@@ -38,12 +38,6 @@ export default function Navigation() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="/admin"
-                className="px-3 py-2 rounded-md text-sm font-medium bg-gradient-to-r from-indigo-600 to-pink-600 hover:opacity-80 transition-opacity"
-              >
-                Admin
-              </Link>
             </div>
           </div>
 
@@ -85,13 +79,6 @@ export default function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/admin"
-              className="block px-3 py-2 rounded-md text-base font-medium bg-gradient-to-r from-indigo-600 to-pink-600 hover:opacity-80 transition-opacity"
-              onClick={() => setIsOpen(false)}
-            >
-              Admin
-            </Link>
           </div>
         </div>
       )}
